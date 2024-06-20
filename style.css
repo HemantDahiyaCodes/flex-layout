@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* align-items: center; */
+}
+
+/* Styling the unordered list */
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+/* Styling the links */
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+
+
+/* Stylng the image */
+.image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling the buttons */
+.buttons button{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+/* Styling the footer */
+.footer{
+    background-color: lightgray;
+}
